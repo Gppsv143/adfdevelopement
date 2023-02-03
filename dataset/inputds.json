@@ -1,0 +1,18 @@
+{
+	"name": "inputds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "testinglinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
